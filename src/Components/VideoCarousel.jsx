@@ -48,7 +48,7 @@ const VideoCarousel = () => {
     });
   }, [isEnd, videoId]);
 
-  useEffect(() => {
+  useEffect(() => { 
     let currentProgress = 0;
     let span = videoSpanRef.current;
 
